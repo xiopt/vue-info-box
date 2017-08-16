@@ -83,7 +83,7 @@ export default {
 <style lang="css">
 .tut-info-box {
 background: rgba(239, 239, 239, 0.17);
-border: 2px solid #3273dc;
+border: 2px solid #01c1ec;
 padding: 5px;
 -webkit-font-smoothing: antialiased;
 font-family: Helvetica;
@@ -95,7 +95,7 @@ margin-top: 5px !important;
   font-family: Helvetica;
   font-weight: bold;
   color: white;
-  background: #3273dc;
+  background: #01c1ec;
   margin: -5px -5px 0px -5px;
   padding: 5px;
   vertical-align: middle;
@@ -129,7 +129,7 @@ background: rgb(224, 220, 121);
 
 .tut-info-box p {
 font-family: Helvetica;
-font-size: 12px;
+font-size: 11px;
 padding: 10px 5px;
 }
 </style>
