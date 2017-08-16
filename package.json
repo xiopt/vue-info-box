@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/ainzz/vue-info-box#readme",
   "peerDependencies": {
-    "vue": "2.x.x"
+    "vue": "2.x.x",
+    "font-awesome": "4.x.x"
   }
 }

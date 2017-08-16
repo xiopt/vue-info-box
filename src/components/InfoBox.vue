@@ -39,10 +39,17 @@ export default {
     titleType: function() {
       switch (this.boxType) {
         case 'info':
-          return '<i class="fa fa-info-circle"></i> Informatii';
+          return '<i class="fa fa-info-circle"></i> Info';
 
         case 'warning':
-          return '<i class="fa fa-exclamation-circle"></i> Atentie';
+          return '<i class="fa fa-exclamation-circle"></i> Warning';
+
+        case 'error':
+          return '<i class="fa fa-times-circle"></i> Error';
+
+        case 'confirm':
+        return '<i class="fa fa-check-circle"></i> Success';
+
 
       }
     },
@@ -56,6 +63,16 @@ export default {
         case 'warning':
           return {
             'tut-info-box warning': true
+          }
+
+        case 'error':
+          return {
+            'tut-info-box warning': true
+          }
+
+        case 'confirm':
+          return {
+            'tut-info-box confirm': true
           }
       }
     }
