@@ -1,0 +1,26 @@
+{
+  "name": "vue-info-box",
+  "version": "0.8.1",
+  "description": "A simple component for vuejs 2.0 to display different types of info boxes",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ainzz/vue-info-box.git"
+  },
+  "keywords": [
+    "vuejs",
+    "vue",
+    "info",
+    "box",
+    "component"
+  ],
+  "author": "Alin Stefan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ainzz/vue-info-box/issues"
+  },
+  "homepage": "https://github.com/ainzz/vue-info-box#readme",
+  "peerDependencies": {
+    "vue": "2.x.x"
+  }
+}
