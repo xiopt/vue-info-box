@@ -48,8 +48,10 @@ export default {
           return '<i class="fa fa-times-circle"></i> Error';
 
         case 'confirm':
-        return '<i class="fa fa-check-circle"></i> Success';
+          return '<i class="fa fa-check-circle"></i> Success';
 
+        default:
+          return '<i class="fa fa-info-circle"></i> Info';
 
       }
     },
@@ -71,6 +73,11 @@ export default {
           }
 
         case 'confirm':
+          return {
+            'tut-info-box confirm': true
+          }
+
+        default:
           return {
             'tut-info-box confirm': true
           }
