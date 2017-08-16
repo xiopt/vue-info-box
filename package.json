@@ -1,6 +1,6 @@
 {
   "name": "vue-info-box",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "A simple component for vuejs 2.0 to display different types of info boxes",
   "main": "main.js",
   "repository": {
