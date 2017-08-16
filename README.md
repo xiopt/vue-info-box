@@ -26,10 +26,9 @@ npm install vue-info-box --save-dev
 <template>
     <div>
       <box :active="true" :type="'info|warning|error|confirm'">
-  			<div slot="box-body">
-
-  			</div>
-		  </box>
+  	<div slot="box-body">
+  	</div>
+      </box>
     </div>
 </template>
 
@@ -37,10 +36,10 @@ npm install vue-info-box --save-dev
 
 import Box from 'vue-info-box'
 export default {
-	name: "YourComponent",
-	components: {
-	    Box
-	}
+    name: "YourComponent",
+    components: {
+        Box
+    }
 }
 </script>
 ```
