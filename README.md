@@ -26,10 +26,9 @@ npm install vue-info-box --save-dev
 <template>
     <div>
       <box :active="true" :type="'info|warning|error|confirm'">
-  			<div slot="box-body">
-
-  			</div>
-		  </box>
+  	<div slot="box-body">
+  	</div>
+      </box>
     </div>
 </template>
 
