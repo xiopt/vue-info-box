@@ -36,10 +36,10 @@ npm install vue-info-box --save-dev
 
 import Box from 'vue-info-box'
 export default {
-	name: "YourComponent",
-	components: {
-	    Box
-	}
+    name: "YourComponent",
+    components: {
+        Box
+    }
 }
 </script>
 ```
