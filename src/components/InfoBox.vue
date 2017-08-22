@@ -1,5 +1,5 @@
 <template lang="html">
-  <div :class="classType" v-if="active">
+  <div :class="classType" v-if="isActive">
     <h3 v-html="titleType"></h3>
     <p>
       <slot name="box-body"></slot>
@@ -12,7 +12,7 @@ export default {
   name: "Box",
   data() {
     return {
-      active: false,
+      isActive: false,
       boxType: 'info'
     }
   },
@@ -29,7 +29,7 @@ export default {
     }
   },
   created() {
-    this.active = this.active
+    this.isActive = this.active
     this.boxType = this.type
   },
   methods: {
