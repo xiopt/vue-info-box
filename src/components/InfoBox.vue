@@ -126,12 +126,12 @@ background: rgb(223, 114, 114);
 }
 
 .tut-info-box.warning {
-border: 2px solid rgb(224, 220, 121);
+border: 2px solid rgb(255, 165, 36);
 }
 
 .tut-info-box.warning h3{
-border: 2px solid rgb(224, 220, 121);
-background: rgb(224, 220, 121);
+border: 2px solid rgb(255, 165, 36);
+background: rgb(255, 165, 36);
 }
 
 .tut-info-box p {
