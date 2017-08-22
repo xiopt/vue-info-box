@@ -69,7 +69,7 @@ export default {
 
         case 'error':
           return {
-            'tut-info-box warning': true
+            'tut-info-box error': true
           }
 
         case 'confirm':
